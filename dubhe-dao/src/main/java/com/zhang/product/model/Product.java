@@ -1,5 +1,6 @@
 package com.zhang.product.model;
 
+import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
 
 import java.math.BigDecimal;
@@ -12,6 +13,7 @@ import java.util.Date;
  * @date 2021-02-28 13:38:50
  */
 @Data
+@TableName(value = "pms_product")
 public class Product {
     /**
      *

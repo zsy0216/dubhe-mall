@@ -9,6 +9,3 @@ spring:
 logging:
   level:
     com.baomidou.mybatisplus.samples.quickstart: debug
-
-mybatis-plus:
-  mapper-locations: classpath*:/mapper/*Mapper.xml

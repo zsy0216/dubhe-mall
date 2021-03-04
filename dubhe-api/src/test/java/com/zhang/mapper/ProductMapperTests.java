@@ -19,6 +19,6 @@ public class ProductMapperTests {
 
     @Test
     public void test(){
-        System.out.println(productMapper.selectList(null));
+        productMapper.selectList(null).forEach(System.out::println);
     }
 }
